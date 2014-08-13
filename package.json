@@ -1,6 +1,6 @@
 {
   "name": "async-task-mgr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple nodeJS module for async task manager. Identical tasks will be executed only once and the result will be saved for further use.",
   "main": "index.js",
   "scripts": {
