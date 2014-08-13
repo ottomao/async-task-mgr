@@ -54,3 +54,7 @@ asyncTaskInstance.addTask("task_X",taskAction,function(resultA,resultB,resultC){
 });
 
 ```
+
+## Author
+Otto Mao 
+ottomao@gmail.com
