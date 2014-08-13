@@ -1,21 +1,3 @@
-async-task-mgr
-==============
-
-## Intro
-A simple nodeJS module for async task manager.
-
-## Features
-
-* tasks with the same name are recognized as **the same**, and will be executed only once
-* task result will be saved for further use
-
-
-## How to use
-
-``npm install async-task-mgr --save``
-
-## Sample
-```javascript
 var asyncTask = require("async-task-mgr");
 
 var asyncTaskInstance = new asyncTask();
@@ -52,5 +34,3 @@ asyncTaskInstance.addTask("task_A",taskAction,function(resultA,resultB,resultC){
 asyncTaskInstance.addTask("task_X",taskAction,function(resultA,resultB,resultC){
 	console.log("task X_0 result :" + resultA + " " + resultB + " " + resultC);
 });
-
-```
