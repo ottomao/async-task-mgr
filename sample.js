@@ -21,8 +21,8 @@ asyncTaskInstance.addTask("task_A",taskAction,function(resultA,resultB,resultC){
 
 //add a new task named task_A
 /*
-since a task with the same name has been added, this taskAction will not be executed
-the callback function will be put in a queue and will be called when previous callbacks are done
+since a task with the same name has been added, this taskAction will not be executed.
+the callback function will be put in a queue and will be called when previous callbacks are done.
 */
 asyncTaskInstance.addTask("task_A",taskAction,function(resultA,resultB,resultC){
 	console.log("task A_2 result :" + resultA + " " + resultB + " " + resultC);
