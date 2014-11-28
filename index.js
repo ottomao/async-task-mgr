@@ -42,6 +42,10 @@ function asyncTaskMgr(){
             });
         }
     }
+
+    self.removeTask = function(name){
+        delete self.callbackList[name];
+    }
 };
 
 module.exports = asyncTaskMgr;
