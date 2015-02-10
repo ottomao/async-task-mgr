@@ -2,7 +2,7 @@ async-task-mgr
 ==============
 
 ## Intro
-A simple nodeJS module for async task manager. Identical tasks will be executed only once and the result will be saved for further use.
+A light nodeJS module for async task manager. Identical tasks will be executed only once and the result will be saved for further use.
 
 ## Features
 
